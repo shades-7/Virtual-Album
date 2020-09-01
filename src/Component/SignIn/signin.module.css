@@ -1,0 +1,145 @@
+.try{
+    padding:0px;
+    margin:0px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+.align{
+    display:flex;
+    justify-content: flex-start;
+}
+.child1{
+    height:100vh;
+    width:40vw;
+    background-color:rgb(173, 232, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formbox{
+    height:600px;
+    width:400px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(130, 191, 196, .3) ;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    height:50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height:500px;
+    width:300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+}
+.email{
+    display: flex;
+    justify-content: center;
+
+}
+.emailicon{
+    height:30px;
+    width:40px;
+    border-bottom: rgb(194, 193, 193) solid;
+    border-right: rgb(194, 193, 193) solid;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: rgb(194, 193, 193);
+}
+.label{
+    height:30px;
+    width:200px;
+    border-bottom: rgb(194, 193, 193) solid;
+}
+.emailinput{
+    height:28px;
+    width:200px;
+    border:none;
+}
+.emailinput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height:40px;
+    width: 250px;
+    background-color:rgb(198, 240, 243) ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginButton:hover{
+    background-color:rgb(34, 218, 231);
+    color: white;
+    border-radius: 40px;
+}
+.signIn{
+    width: 100px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(10, 218, 233);
+    border:none;
+    background: none;
+    font-size: 20px;
+    border:solid;
+    border-radius: 30px;
+}
+.signIn:hover{
+    background-color:rgb(34, 218, 231);
+    color: white;
+    border-radius: 20px;
+    height:40px;
+    width: 100px;
+}
+.google{
+    height:100px;
+    width:400px;
+    background-color: rgb(198, 240, 243); 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+.child2{
+    height:100vh;
+    width:60vw;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.photobox{
+    height:650px;
+    width:650px;
+    background-color:rgb(173, 232, 236); 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.boxhor1{
+ display: flex;
+ justify-content: space-evenly;
+
+}
+.box1{
+  height:180px;
+  width:180px;
+  background-color: rgb(237, 245, 245);
+}
+
