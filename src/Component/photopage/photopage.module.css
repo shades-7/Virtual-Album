@@ -1,5 +1,35 @@
 .container{
     height:100vh;
     width:100vw;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(245, 246, 252);
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.navhor{
+    height:7vh;
+    width: 100vw;
+    background-color: rgb(251, 255, 255);
+    border-bottom: 2px solid rgb(214, 214, 214);
+}
+.hor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navver{
+    height:93vh;
+    width:3.5vw;
+    background-color: rgb(251, 255, 255);
+    border-right: 2px solid rgb(214, 214, 214);;
+}
+.align{
+    height: 93vh;
+    width:7vw;
+}
+.picbox{
+    height:700px;
+    width:1600px;
+    background-color: rgb(255, 255, 255);
 }
